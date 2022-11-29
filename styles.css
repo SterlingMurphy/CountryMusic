@@ -1,0 +1,50 @@
+/*
+
+
+Selector {
+    property: Value;
+    property: Value;
+    property: Value;
+}
+
+Tagname -> Select all tags of given type
+.classname -> select all tags that have a given class
+tagname.classname -> select NLY tags that are ALSO a given class
+
+> -> child symbol
+
+tagname>tagname -> select children of a given type
+.classname>tagname -> select children of a given type
+tagname>.classname -> select children of a given class
+.classname>.classname -> select children of a given class
+
+*/
+
+.nav{
+    border-style: dotted;
+
+    width: 50%;
+
+    margin: auto;
+
+    list-style: none;
+    padding-left: 0%;
+
+    text-align: center;
+}
+
+.homeimg{
+    width: 400px;
+}
+
+.factsimg{
+    width: 800px;
+}
+
+.nav>li{
+    text-decoration: none;
+    color: rgb(9, 194, 194);
+    border-style: outset;
+    display: inline-block;
+    border: ridge;
+}
